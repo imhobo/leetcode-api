@@ -1,5 +1,20 @@
+const proxyAgent = require('proxy-agent');
+
+const dispatcher = new proxyAgent.ProxyAgent()
+
+// const freeProxy = require('free-proxy-nodejs');
+
+// async function myfunction() {
+//   const proxies = await freeProxy.getProxies();
+//   console.log(proxies)
+//   return proxies;
+// }
+
+
+
 const problemFetch = async (res, formatData, query, variable) => {
   await fetch("https://leetcode.com/graphql", {
+    dispatcher,
     method: "POST",
     headers: {
       "Content-Type": "application/json",

@@ -1,7 +1,13 @@
+const proxyAgent = require('proxy-agent');
+
+const dispatcher = new proxyAgent.ProxyAgent()
+
+
 const userDetailsFetch = async (req, res, formatData, query) => {
   let userName = req.params.username;
   let limit = req.query.limit;
   await fetch("https://leetcode.com/graphql", {
+    dispatcher,
     method: "POST",
     headers: {
       "Content-Type": "application/json",
