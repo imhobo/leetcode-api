@@ -1,4 +1,4 @@
-<h1 align="center">alfa-leetcode-api</h1>
+<h1 align="center">leetcode-api</h1>
 <div align="center">
 
 ### The API for retrieving your LeetCode profile & Problems statistics
@@ -13,17 +13,6 @@
 
 </div>
 
-## About ✨
-
-At First, I struggled to find proper documentation for the `leetcode.com/graphql`. After scouring various articles about the LeetCode public API, I still couldn't find the comprehensive documentation I was looking for. Fueled by the desire to fill this gap I created **alfa-leetcode-api**.
-
-**alfa-leetcode-api** is a custom solution born out of the need for a well-documented and detailed LeetCode API. This project is designed to provide developers with endpoints that offer insights into a user's profile, badges, solved questions, contest details, contest history, submissions, and also daily questions, selected problem, list of problems.
-
-## API URL 🌐
-
-```
-https://alfa-leetcode-api.onrender.com/
-```
 
 ### 💡 Rate Limit
 
@@ -59,21 +48,3 @@ During development, it's recommended to utilize the API locally. To do so, follo
 | _Filter Problems_           | `/problems?tags=tag1+tag2`                   | Get a list of problems based on selected **_tags_**.                             | <a href="./public/demo/demo14.png" target="_blank">click here</a> |
 | _Filter & Limited Problems_ | `/problems?tags=tag1+tag2+tag3&limit=number` | Get a list of a specified **_number_** of problems based on selected **_tags_**. | <a href="./public/demo/demo15.png" target="_blank">click here</a> |
 
-## Author ✒️
-
-- [@alfaArghya](https://www.github.com/alfaArghya)
-
-## Contributor ✏️
-
-- [@aryanpingle](https://www.github.com/aryanpingle)
-
-## Join Server 💬
-
-[![Discord](https://img.shields.io/badge/discord-%2320232a.svg?style=normal&logo=discord&logoColor=%230077B5)](https://discord.gg/GJ6YM4zrBt)
-
-## Connect with me 📲
-
-[![LinkedIn](https://img.shields.io/badge/linkedin-%2320232a.svg?style=normal&logo=linkedIn&logoColor=%230077B5)](https://linkedin.com/in/alfaarghya)
-[![Twitter](https://img.shields.io/badge/twitter-%2320232a.svg?style=normal&logo=twitter&logoColor=%230077B5)](https://twitter.com/alfa_arghya)
-[![Twitter](https://img.shields.io/badge/Instagram-%2320232a.svg?style=normal&logo=instagram&logoColor=white)](https://www.instagram.com/alfaarghya)
-[![LeetCode](https://img.shields.io/badge/LeetCode-%2320232a.svg?style=normal&logo=LeetCode&logoColor=%FFA116)](https://leetcode.com/alfa_arghya/)

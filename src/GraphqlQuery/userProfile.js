@@ -5,14 +5,6 @@ const query = `query getUserProfile($username: String!) {
     }
     matchedUser(username: $username) {
         username
-        githubUrl
-        twitterUrl
-        linkedinUrl
-        contributions {
-            points
-            questionCount
-            testcaseCount
-        }
         profile {
             realName
             userAvatar
@@ -26,22 +18,6 @@ const query = `query getUserProfile($username: String!) {
             skillTags
             aboutMe
             starRating
-        }
-        badges {
-            id
-            displayName
-            icon
-            creationDate
-        }
-        upcomingBadges {
-            name
-            icon
-        }
-        activeBadge {
-            id
-            displayName
-            icon
-            creationDate
         }
         submitStats {
             totalSubmissionNum {
@@ -63,6 +39,18 @@ const query = `query getUserProfile($username: String!) {
         timestamp
         statusDisplay
         lang
+        url
+    }
+    recentAcSubmissionList(username: $username, limit: 5) {
+        id
+        title
+        titleSlug
+        timestamp
+        statusDisplay
+        lang
+        url
+        runtime                        
+        memory
     }
 }`;
 

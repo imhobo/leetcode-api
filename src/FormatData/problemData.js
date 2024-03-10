@@ -22,6 +22,7 @@ exports.formatDailyData = (data) => {
 
 exports.formatQuestionData = (data) => {
     return {
+        acRate: data.question.acRate,
         link: `https://leetcode.com/problems/` + data.question.titleSlug,
         questionId: data.question.questionId,
         questionFrontendId: data.question.questionFrontendId,

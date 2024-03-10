@@ -15,6 +15,8 @@ exports.formatUserData = (data) => {
     school: data.matchedUser.profile.school,
     skillTags: data.matchedUser.profile.skillTags,
     about: data.matchedUser.profile.aboutMe,
+    submission: data.recentSubmissionList,
+    acSubmission: data.recentAcSubmissionList
   };
 };
 
