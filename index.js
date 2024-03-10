@@ -63,7 +63,7 @@ app.get("/:username/solved", leetcode.solvedProblem);
 // app.get("/:username/contest", leetcode.userContest);
 // app.get("/:username/contest/history", leetcode.userContestHistory);
 // app.get("/:username/submission", leetcode.submission);
-// app.get("/:username/acSubmission", leetcode.acSubmission);
+app.get("/:username/acSubmission", leetcode.acSubmission);
 // app.get("/:username/calendar", leetcode.calendar);
 
 app.listen(port, () => {

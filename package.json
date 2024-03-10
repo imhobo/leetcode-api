@@ -19,7 +19,6 @@
     "express-rate-limit": "^7.1.5",
     "free-proxy-nodejs": "^1.0.7",
     "n": "^9.2.1",
-    "proxy-agent": "^6.4.0",
     "undici": "^6.7.1"
   }
 }
