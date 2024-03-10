@@ -4,14 +4,14 @@
   "description": "It's a leetcode custom api",
   "main": "index.js",
   "engines": {
-    "node": "18.x"
+    "node": "16.x"
   },
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "alfaarghya",
+  "author": "imhobo",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
